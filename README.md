@@ -1,0 +1,1 @@
+Investigator generator for a horror role-playing game
