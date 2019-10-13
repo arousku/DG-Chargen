@@ -1,0 +1,689 @@
+{
+  "skills": {
+    "accounting": 10,
+    "alertness": 20,
+    "anthropology": 0,
+    "archeology": 0,
+    "art1": 0,
+    "artillery": 0,
+    "athletics": 30,
+    "bureaucracy": 10,
+    "computer science": 0,
+    "craft1": 0,
+    "criminology": 10,
+    "demolitions": 0,
+    "disguise": 10,
+    "dodge": 30,
+    "drive": 20,
+    "firearms": 20,
+    "first aid": 10,
+    "forensics": 0,
+    "heavy machinery": 10,
+    "heavy weapons": 0,
+    "history": 10,
+    "humint": 10,
+    "law": 0,
+    "medicine": 0,
+    "melee weapons": 30,
+    "military science1": 0,
+    "navigate": 10,
+    "occult": 10,
+    "persuade": 20,
+    "pharmacy": 0,
+    "pilot1": 0,
+    "psychotherapy": 10,
+    "ride": 10,
+    "science1": 0,
+    "search": 20,
+    "sigint": 0,
+    "stealth": 10,
+    "surgery": 0,
+    "survival": 10,
+    "swim": 20,
+    "unarmed combat": 40,
+    "unnatural": 0
+  },
+
+  "AnthropologistSkills": {
+    "anthropology": 50,
+    "bureaucracy": 40,
+    "history": 60,
+    "occult": 40,
+    "persuade": 40,
+    "extra1title": "□ Foreign language (choose first)",
+    "extra1": 50,
+    "extra2title": "□ Foreign language (choose second)",
+    "extra2": 40
+  },
+  "AnthropologistOptionalSkills": {
+    "archeology": 40,
+    "humint": 50,
+    "navigate": 50,
+    "ride": 50,
+    "search": 60,
+    "survival": 50
+  },
+  "AnthropologistOptionalSkillAmount": 2,
+  "AnthropologistBonds": 4,
+
+  "HistorianSkills": {
+    "archeology": 50,
+    "bureaucracy": 40,
+    "history": 60,
+    "occult": 40,
+    "persuade": 40,
+    "extra1title": "□ Foreign language (choose first)",
+    "extra1": 50,
+    "extra2title": "□ Foreign language (choose second)",
+    "extra2": 40
+  },
+  "HistorianOptionalSkills": {
+    "anthropology": 40,
+    "humint": 50,
+    "navigate": 50,
+    "ride": 50,
+    "search": 60,
+    "survival": 50
+  },
+  "HistorianOptionalSkillAmount": 2,
+  "HistorianBonds": 4,
+
+  "Computer ScientistSkills": {
+    "computer science": 60,
+    "crafttitle": "□ Craft (Electrician, Mechanic)",
+    "craft1": 30,
+    "craft2": 30,
+    "extra1title": "□ Craft (Microelectronics)",
+    "extra1": 40,
+    "sciencetitle": "□ Science (Mathematics)",
+    "science1": 40,
+    "sigint": 40
+  },
+  "Computer ScientistOptionalSkills": {
+    "accounting": 50,
+    "bureaucracy": 50,
+    "extra2Obj": {
+      "extra2title": "□ Craft (choose one)",
+      "extra2": 40
+    },
+    "extra3Obj": {
+      "extra3title": "□ Foreign Language (choose one)",
+      "extra3": 40
+    },
+    "heavy machinery": 50,
+    "law": 40,
+    "scienceObj": {
+      "sciencetitle": "□ Science (Mathematics, choose one)",
+      "science2": 40
+    }
+  },
+  "Computer ScientistOptionalSkillAmount": 4,
+  "Computer ScientistBonds": 3,
+
+  "EngineerSkills": {
+    "computer science": 60,
+    "crafttitle": "□ Craft (Electrician, Mechanic)",
+    "craft1": 30,
+    "craft2": 30,
+    "extra1title": "□ Craft (Microelectronics)",
+    "extra1": 40,
+    "sciencetitle": "□ Science (Mathematics)",
+    "science1": 40,
+    "sigint": 40
+  },
+  "EngineerOptionalSkills": {
+    "accounting": 50,
+    "bureaucracy": 50,
+    "extra2Obj": {
+      "extra2title": "□ Craft (choose one)",
+      "extra2": 40
+    },
+    "extra3Obj": {
+      "extra3title": "□ Foreign Language (choose one)",
+      "extra3": 40
+    },
+    "heavy machinery": 50,
+    "law": 40,
+    "scienceObj": {
+      "sciencetitle": "□ Science (Mathematics, choose one)",
+      "science2": 40
+    }
+  },
+  "EngineerOptionalSkillAmount": 4,
+  "EngineerBonds": 3,
+
+  "Federal AgentSkills": {
+    "alertness": 50,
+    "bureaucracy": 40,
+    "criminology": 50,
+    "drive": 50,
+    "firearms": 50,
+    "forensics": 30,
+    "humint": 60,
+    "law": 30,
+    "persuade": 50,
+    "search": 50,
+    "unarmed combat": 60
+  },
+  "Federal AgentOptionalSkills": {
+    "accounting": 60,
+    "computer science": 50,
+    "extra1Obj": {
+      "extra1title": "□ Foreign language (choose one)",
+      "extra1": 50
+    },
+    "heavy weapons": 50,
+    "pharmacy": 50
+  },
+  "Federal AgentOptionalSkillAmount": 1,
+  "Federal AgentBonds": 3,
+
+  "PhysicianSkills": {
+    "bureaucracy": 50,
+    "first aid": 60,
+    "medicine": 60,
+    "persuade": 40,
+    "pharmacy": 50,
+    "sciencetitle": "□ Science (Biology)",
+    "science1": 60,
+    "search": 40
+  },
+  "PhysicianOptionalSkills": {
+    "forensics": 50,
+    "psychotherapy": 60,
+    "scienceObj": {
+      "sciencetitle": "□ Science (Biology, choose second)",
+      "science2": 50
+    },
+    "surgery": 50
+  },
+  "PhysicianOptionalSkillAmount": 2,
+  "PhysicianBonds": 3,
+
+  "ScientistSkills": {
+    "bureaucracy": 40,
+    "computer science": 40,
+    "sciencetitle": "□ Science (choose first & second)",
+    "science1": 60,
+    "science2": 50,
+    "extra1title": "□ Science (choose third)",
+    "extra1": 50
+  },
+  "ScientistOptionalSkills": {
+    "accounting": 50,
+    "craftObj": {
+      "crafttitle": "□ Craft (choose one)",
+      "craft1": 40
+    },
+    "extra2Obj": {
+      "extra2title": "□ Foreign Language (choose one)",
+      "extra2": 40
+    },
+    "forensics": 40,
+    "law": 40,
+    "pharmacy": 40
+  },
+  "ScientistOptionalSkillAmount": 2,
+  "ScientistBonds": 3,
+
+  "Special OperatorSkills": {
+    "alertness": 60,
+    "athletics": 60,
+    "demolitions": 40,
+    "firearms": 60,
+    "heavy weapons": 50,
+    "melee weapons": 50,
+    "military sciencetitle": "□ Military Science (Land)",
+    "military science1": 60,
+    "navigate": 50,
+    "stealth": 50,
+    "survival": 50,
+    "swim": 50,
+    "unarmed combat": 60
+  },
+  "Special OperatorBonds": 2,
+
+  "CriminalSkills": {
+    "alertness": 50,
+    "criminology": 60,
+    "dodge": 40,
+    "drive": 50,
+    "firearms": 40,
+    "law": 40,
+    "melee weapons": 40,
+    "persuade": 50,
+    "stealth": 50,
+    "unarmed combat": 50
+  },
+  "CriminalOptionalSkills": {
+    "craftObj": {
+      "crafttitle": "□ Craft (Locksmithing)",
+      "craft1": 40
+    },
+    "demolitions": 40,
+    "disguise": 50,
+    "extra1Obj": {
+      "extra1title": "□ Foreign language (choose one)",
+      "extra1": 40
+    },
+    "forensics": 40,
+    "humint": 50,
+    "navigate": 50,
+    "occult": 50,
+    "pharmacy": 40
+  },
+  "CriminalOptionalSkillAmount": 2,
+  "CriminalBonds": 4,
+
+  "FirefighterSkills": {
+    "alertness": 50,
+    "athletics": 60,
+    "crafttitle": "□ Craft (Electrician & Mechanic)",
+    "craft1": 40,
+    "craft2": 40,
+    "demolitions": 50,
+    "drive": 50,
+    "first aid": 50,
+    "forensics": 40,
+    "heavy machinery": 50,
+    "navigate": 50,
+    "search": 40
+  },
+  "FirefighterBonds": 3,
+
+  "Foreign Service OfficerSkills": {
+    "accounting": 40,
+    "anthropology": 40,
+    "bureaucracy": 60,
+    "extra1title": "□ Foreign language (choose first)",
+    "extra1": 50,
+    "extra2title": "□ Foreign language (choose second)",
+    "extra2": 50,
+    "extra3title": "□ Foreign language (choose third)",
+    "extra3": 40,
+    "history": 40,
+    "humint": 50,
+    "law": 40,
+    "persuade": 50
+  },
+  "Foreign Service OfficerBonds": 3,
+
+  "Intelligence AnalystSkills": {
+    "anthropology": 40,
+    "bureaucracy": 50,
+    "computer science": 40,
+    "criminology": 40,
+    "extra1title": "□ Foreign language (choose first)",
+    "extra1": 50,
+    "extra2title": "□ Foreign language (choose second)",
+    "extra2": 50,
+    "extra3title": "□ Foreign language (choose third)",
+    "extra3": 40,
+    "history": 40,
+    "humint": 50,
+    "sigint": 40
+  },
+  "Intelligence AnalystBonds": 3,
+
+  "Intelligence Case OfficerSkills": {
+    "alertness": 50,
+    "bureaucracy": 40,
+    "criminology": 50,
+    "disguise": 50,
+    "drive": 40,
+    "firearms": 40,
+    "extra1title": "□ Foreign language (choose first)",
+    "extra1": 50,
+    "extra2title": "□ Foreign language (choose second)",
+    "extra2": 40,
+    "humint": 60,
+    "persuade": 60,
+    "sigint": 40,
+    "stealth": 50,
+    "unarmed combat": 50
+  },
+  "Intelligence Case OfficerBonds": 2,
+
+  "LawyerSkills": {
+    "accounting": 50,
+    "bureaucracy": 50,
+    "humint": 40,
+    "persuade": 60
+  },
+  "LawyerOptionalSkills": {
+    "computer science": 50,
+    "criminology": 60,
+    "extra1Obj": {
+      "extra1title": "□ Foreign language (choose one)",
+      "extra1": 50
+    },
+
+    "law": 50,
+    "pharmacy": 50
+  },
+  "LawyerOptionalSkillAmount": 4,
+  "LawyerBonds": 4,
+
+  "Business ExecutiveSkills": {
+    "accounting": 50,
+    "bureaucracy": 50,
+    "humint": 40,
+    "persuade": 60
+  },
+  "Business ExecutiveOptionalSkills": {
+    "computer science": 50,
+    "criminology": 60,
+    "extra1Obj": {
+      "extra1title": "□ Foreign language (choose one)",
+      "extra1": 50
+    },
+    "law": 50,
+    "pharmacy": 50
+  },
+  "Business ExecutiveOptionalSkillAmount": 4,
+  "Business ExecutiveBonds": 4,
+
+  "Media SpecialistSkills": {
+    "arttitle": "□ Art (choose one)",
+    "art1": 60,
+    "history": 40,
+    "humint": 40,
+    "persuade": 50
+  },
+  "Media SpecialistOptionalSkills": {
+    "anthropology": 40,
+    "archeology": 40,
+    "artObj": {
+      "arttitle": "□ Art (choose first and second)",
+      "art2": 40
+    },
+    "bureaucracy": 50,
+    "computer science": 40,
+    "criminology": 50,
+    "extra1Obj": {
+      "extra1title": "□ Foreign language (choose one)",
+      "extra1": 40
+    },
+    "law": 40,
+    "milsci": {
+      "military sciencetitle": "□ Military Science (choose one)",
+      "military science1": 40
+    },
+    "occult": 50,
+    "science": {
+      "sciencetitle": "□ Science (choose one)",
+      "science1": 40
+    }
+  },
+  "Media SpecialistOptionalSkillAmount": 5,
+  "Media SpecialistBonds": 4,
+
+  "NurseSkills": {
+    "alertness": 40,
+    "bureaucracy": 40,
+    "first aid": 60,
+    "humint": 40,
+    "medicine": 40,
+    "persuade": 40,
+    "pharmacy": 40,
+    "sciencetitle": "□ Science (Biology)",
+    "science1": 40
+  },
+  "NurseOptionalSkills": {
+    "drive": 60,
+    "forensics": 40,
+    "navigate": 50,
+    "psychotherapy": 50,
+    "search": 60
+  },
+  "NurseOptionalSkillAmount": 2,
+  "NurseBonds": 4,
+
+  "ParamedicSkills": {
+    "alertness": 40,
+    "bureaucracy": 40,
+    "first aid": 60,
+    "humint": 40,
+    "medicine": 40,
+    "persuade": 40,
+    "pharmacy": 40,
+    "sciencetitle": "□ Science (Biology)",
+    "science1": 40
+  },
+  "ParamedicOptionalSkills": {
+    "drive": 60,
+    "forensics": 40,
+    "navigate": 50,
+    "psychotherapy": 50,
+    "search": 60
+  },
+  "ParamedicOptionalSkillAmount": 2,
+  "ParamedicBonds": 4,
+
+  "PilotSkills": {
+    "alertness": 60,
+    "bureaucracy": 30,
+    "crafttitle": "□ Craft (Electrician, Mechanic)",
+    "craft1": 40,
+    "craft2": 40,
+    "navigate": 50,
+    "pilottitle": "□ Pilot (choose one)",
+    "pilot1": 60,
+    "sciencetitle": "□ Science (Meteorology)",
+    "science1": 40,
+    "swim": 40
+  },
+  "PilotOptionalSkills": {
+    "extra1Obj": {
+      "extra1title": "□ Foreign Language (choose one)",
+      "extra1": 50
+    },
+    "pilotObj": {
+      "pilottitle": "□ Pilot (choose first & second)",
+      "pilot2": 50
+    },
+    "heavy weapons": 50,
+    "milsciObj": {
+      "military sciencetitle": "□ Military Science (choose one)",
+      "military science1": 50
+    }
+  },
+  "PilotOptionalSkillAmount": 2,
+  "PilotBonds": 3,
+
+  "SailorSkills": {
+    "alertness": 60,
+    "bureaucracy": 30,
+    "crafttitle": "□ Craft (Electrician, Mechanic)",
+    "craft1": 40,
+    "craft2": 40,
+    "navigate": 50,
+    "pilottitle": "□ Pilot (choose one)",
+    "pilot1": 60,
+    "sciencetitle": "□ Science (Meteorology)",
+    "science1": 40,
+    "swim": 40
+  },
+  "SailorOptionalSkills": {
+    "extra1Obj": {
+      "extra1title": "□ Foreign Language (choose one)",
+      "extra1": 50
+    },
+    "pilotObj": {
+      "pilottitle": "□ Pilot (choose first & second)",
+      "pilot2": 50
+    },
+    "heavy weapons": 50,
+    "milsciObj": {
+      "military sciencetitle": "□ Military Science (choose one)",
+      "military science1": 50
+    }
+  },
+  "SailorOptionalSkillAmount": 2,
+  "SailorBonds": 3,
+
+  "Police OfficerSkills": {
+    "alertness": 60,
+    "bureaucracy": 40,
+    "criminology": 40,
+    "drive": 50,
+    "firearms": 40,
+    "first aid": 30,
+    "humint": 50,
+    "law": 30,
+    "melee weapons": 50,
+    "navigate": 40,
+    "persuade": 40,
+    "search": 40,
+    "unarmed combat": 60
+  },
+  "Police OfficerOptionalSkills": {
+    "forensics": 50,
+    "heavy machinery": 60,
+    "heavy weapons": 50,
+    "ride": 60
+  },
+  "Police OfficerOptionalSkillAmount": 1,
+  "Police OfficerBonds": 3,
+
+  "Program ManagerSkills": {
+    "accounting": 60,
+    "bureaucracy": 60,
+    "computer science": 50,
+    "criminology": 30,
+    "extra1title": "□ Foreign Language (choose one)",
+    "extra1": 50,
+    "history": 40,
+    "law": 40,
+    "persuade": 50
+  },
+  "Program ManagerOptionalSkills": {
+    "anthropology": 30,
+    "artObj": {
+      "arttitle": "□ Art (choose one)",
+      "art1": 30
+    },
+    "craftObj": {
+      "crafttitle": "□ Craft (choose one)",
+      "craft1": 30
+    },
+    "scienceObj": {
+      "sciencetitle": "□ Science (choose one)",
+      "science1": 30
+    }
+  },
+  "Program ManagerOptionalSkillAmount": 1,
+  "Program ManagerBonds": 4,
+
+  "SoldierSkills": {
+    "alertness": 50,
+    "athletics": 50,
+    "bureaucracy": 30,
+    "drive": 40,
+    "firearms": 40,
+    "first aid": 40,
+    "military sciencetitle": "□ Military Science (Land)",
+    "military science1": 40,
+    "navigate": 40,
+    "persuade": 30,
+    "unarmed combat": 50
+  },
+  "SoldierOptionalSkills": {
+    "artillery": 40,
+    "computer science": 40,
+    "craftObj": {
+      "crafttitle": "□ Craft (choose one)",
+      "craft1": 40
+    },
+    "demolitions": 40,
+    "extra1Obj": {
+      "extra1title": "□ Foreign Language (choose one)",
+      "extra1": 40
+    },
+    "heavy machinery": 50,
+    "heavy weapons": 40,
+    "search": 60,
+    "sigint": 40,
+    "swim": 60
+  },
+  "SoldierOptionalSkillAmount": 3,
+  "SoldierBonds": 4,
+
+  "MarineSkills": {
+    "alertness": 50,
+    "athletics": 50,
+    "bureaucracy": 30,
+    "drive": 40,
+    "firearms": 40,
+    "first aid": 40,
+    "military sciencetitle": "□ Military Science (Sea)",
+    "military science1": 40,
+    "navigate": 40,
+    "persuade": 30,
+    "unarmed combat": 50
+  },
+  "MarineOptionalSkills": {
+    "artillery": 40,
+    "computer science": 40,
+    "craftObj": {
+      "crafttitle": "□ Craft (choose one)",
+      "craft1": 40
+    },
+    "demolitions": 40,
+    "extra1Obj": {
+      "extra1title": "□ Foreign Language (choose one)",
+      "extra1": 40
+    },
+    "heavy machinery": 50,
+    "heavy weapons": 40,
+    "search": 60,
+    "sigint": 40,
+    "swim": 60
+  },
+  "MarineOptionalSkillAmount": 3,
+  "MarineBonds": 4,
+
+  "profession": [
+    "Anthropologist",
+    "Historian",
+    "Computer Scientist",
+    "Engineer",
+    "Federal Agent",
+    "Physician",
+    "Scientist",
+    "Special Operator",
+    "Criminal",
+    "Firefighter",
+    "Foreign Service Officer",
+    "Intelligence Analyst",
+    "Intelligence Case Officer",
+    "Lawyer",
+    "Business Executive",
+    "Media Specialist",
+    "Nurse",
+    "Paramedic",
+    "Pilot",
+    "Sailor",
+    "Police Officer",
+    "Program Manager",
+    "Soldier",
+    "Marine"
+  ],
+  "bonds": [
+    "Spouse",
+    "Ex-spouse",
+    "Son",
+    "Daughter",
+    "Parent",
+    "Grandparent",
+    "Best friend",
+    "Coworker",
+    "Partner",
+    "Psychologist",
+    "Therapist",
+    "Sibling",
+    "Church",
+    "Support group",
+    "Survivors of a shared trauma"
+  ]
+}
