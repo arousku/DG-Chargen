@@ -1,0 +1,46 @@
+@media print {
+    td {
+        line-height: 7.5px;
+    }
+}
+
+@media only screen {
+    body {
+        margin-top: 300px;
+        transform: scaleX(1.5) scaleY(1.5);
+    }
+
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+th {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 8px;
+}
+
+.rotate {
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    width: 1.5em;
+}
+.rotate div {
+    -moz-transform: rotate(-90.0deg);  /* FF3.5+ */
+    -o-transform: rotate(-90.0deg);  /* Opera 10.5 */
+    -webkit-transform: rotate(-90.0deg);  /* Saf3.1+, Chrome */
+    filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+    margin-left: -10em;
+    margin-right: -10em;
+}
