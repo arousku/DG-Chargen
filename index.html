@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DG Character Generator</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<table align="center">
+    <tbody>
+    <tr>
+        <th colspan="10"><strong>DG CHARGEN</strong></th>
+    </tr>
+    <tr>
+        <th class='rotate' rowspan="3"><div>PERSONAL DATA</div></th>
+        <td colspan="5">Name: </td>
+        <td id="profession" colspan="4">Profession: </td>
+    </tr>
+    <tr>
+        <td colspan="5">Employer: </td>
+        <td colspan="4">Nationality: </td>
+    </tr>
+    <tr>
+        <td colspan="2">Sex: </td>
+        <td id="age" colspan="2">Age and D.O.B.:</td>
+        <td colspan="5">Education: </td>
+    </tr>
+    <tr>
+        <th rowspan="14" class='rotate'><div>STATISTICAL DATA</div></th>
+        <td>STATISTICS</td>
+        <td>SCORE</td>
+        <td>x5&nbsp;&nbsp;</td>
+        <td colspan="2">DISTINGUISHING FEATURES</td>
+        <th rowspan="14" class='rotate'><div>PSYCHOLOGICAL DATA</div></th>
+        <td colspan="2">BONDS</td>
+        <td>SCORE</td>
+    </tr>
+    <tr>
+        <td>Strength (STR)</td>
+        <td id="statsit_0"></td>
+        <td id="statsit_x5_0"></td>
+        <td colspan="2"></td>
+        <td colspan="2" id="bond1"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Constitution (CON)</td>
+        <td id="statsit_1"></td>
+        <td id="statsit_x5_1"></td>
+        <td colspan="2"></td>
+        <td colspan="2" id="bond2"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Dexterity (DEX)</td>
+        <td id="statsit_2"></td>
+        <td id="statsit_x5_2"></td>
+        <td colspan="2"></td>
+        <td colspan="2" id="bond3"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Intelligence (INT)</td>
+        <td id="statsit_3"></td>
+        <td id="statsit_x5_3"></td>
+        <td colspan="2"></td>
+        <td colspan="2" id="bond4"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Power (POW)</td>
+        <td id="statsit_4"></td>
+        <td id="statsit_x5_4"></td>
+        <td colspan="2"></td>
+        <td colspan="2" id="bond5"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Charisma (CHA)</td>
+        <td id="statsit_5"></td>
+        <td id="statsit_x5_5"></td>
+        <td colspan="2"></td>
+        <td colspan="2" id="bond6"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="3">DERIVED ATTRIBUTES</td>
+        <td>MAXIMUM</td>
+        <td>CURRENT</td>
+        <td colspan="3">MOTIVATIONS AND MENTAL DISORDERS</td>
+    </tr>
+    <tr>
+        <td colspan="3">Hit Points (HP)</td>
+        <td id="hp"></td>
+        <td></td>
+        <td colspan="3" rowspan="4"></td>
+    </tr>
+    <tr>
+        <td colspan="3">Willpower Points (WP)</td>
+        <td id="wp"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="3">Sanity Points (SAN)</td>
+        <td id="san"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="3">Breaking Point (BP)</td>
+        <td id="bp"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="5" rowspan="2">PHYSICAL DESCRIPTION</td>
+        <td colspan="3">INCIDENTS OF SANITY LOSS</td>
+    </tr>
+    <tr>
+        <td colspan="3">Violence □□□ <i>adapted</i>&nbsp;&nbsp;&nbsp;&nbsp;Helplessness □□□ <i>adapted</i></td>
+    </tr>
+    <tr>
+        <th rowspan="19" class='rotate'><div>APPLICABLE SKILL SETS</div></th>
+        <td colspan="2">□ Accounting</td>
+        <td id="accounting"></td>
+        <td colspan="2">□ First Aid</td>
+        <td id="first aid"></td>
+        <td colspan="2">□ Ride</td>
+        <td id="ride"></td>
+    </tr>
+    <tr>
+        <td colspan="2">□ Alertness</td>
+        <td id="alertness"></td>
+        <td colspan="2">□ Forensics</td>
+        <td id="forensics"></td>
+        <td valign="top" colspan="2" rowspan="2" id="sciencetitle">□ Science (Type)</td>
+        <td id="science1"></td>
+    </tr>
+    <tr>
+        <td colspan="2">□ Anthropology</td>
+        <td id="anthropology"></td>
+        <td colspan="2">□ Heavy Machinery</td>
+        <td id="heavy machinery"></td>
+        <td id="science2"></td>
+    </tr>
+    <tr>
+        <td colspan="2">□ Archeology</td>
+        <td id="archeology"></td>
+        <td colspan="2">□ Heavy Weapons</td>
+        <td  id="heavy weapons"></td>
+        <td colspan="2">□ Search</td>
+        <td id="search"></td>
+    </tr>
+    <tr>
+        <td valign="top" colspan="2" rowspan="2" id="arttitle">□ Art (Type)</td>
+        <td id="art1"></td>
+        <td colspan="2">□ History</td>
+        <td id="history"></td>
+        <td colspan="2">□ SIGINT</td>
+        <td id="sigint"></td>
+    </tr>
+    <tr>
+        <td id="art2"></td>
+        <td colspan="2">□ HUMINT</td>
+        <td id="humint"></td>
+        <td colspan="2">□ Stealth</td>
+        <td id="stealth"></td>
+    </tr>
+    <tr>
+        <td colspan="2">□ Artillery</td>
+        <td id="artillery"></td>
+        <td colspan="2">□ Law</td>
+        <td id="law"></td>
+        <td colspan="2">□ Surgery</td>
+        <td id="surgery"></td>
+    </tr>
+    <tr>
+        <td colspan="2">□ Athletics</td>
+        <td id="athletics"></td>
+        <td colspan="2">□ Medicine</td>
+        <td id="medicine"></td>
+        <td colspan="2">□ Survival</td>
+        <td id="survival"></td>
+    </tr>
+    <tr>
+        <td colspan="2">□ Bureaucracy</td>
+        <td id="bureaucracy"></td>
+        <td colspan="2">□ Melee Weapons</td>
+        <td id="melee weapons"></td>
+        <td colspan="2">□ Swim</td>
+        <td id="swim"></td>
+    </tr>
+    <tr>
+        <td colspan="2">□ Computer Science</td>
+        <td id="computer science"></td>
+        <td valign="top" colspan="2" rowspan="2" id="military sciencetitle">□ Military Science (Type)</td>
+        <td id="military science1"></td>
+        <td colspan="2">□ Unarmed Combat</td>
+        <td id="unarmed combat"></td>
+    </tr>
+    <tr>
+        <td valign="top" colspan="2" rowspan="2" id="crafttitle">□ Craft (Type)</td>
+        <td id="craft1"></td>
+        <td id="military science2"></td>
+        <td colspan="2">□ Unnatural</td>
+        <td id="unnatural"></td>
+    </tr>
+    <tr>
+        <td id="craft2"></td>
+        <td colspan="2">□ Navigate</td>
+        <td id="navigate"></td>
+        <td colspan="3">Foreign Languages And Other Skills</td>
+    </tr>
+    <tr>
+        <td colspan="2">□ Criminology</td>
+        <td id="criminology"></td>
+        <td colspan="2">□ Occult</td>
+        <td id="occult"></td>
+        <td colspan="2" id="extra1title"></td>
+        <td id="extra1"></td>
+    </tr>
+    <tr>
+        <td colspan="2">□ Demolitions</td>
+        <td id="demolitions"></td>
+        <td colspan="2">□ Persuade</td>
+        <td id="persuade"></td>
+        <td colspan="2" id="extra2title"></td>
+        <td id="extra2"></td>
+    </tr>
+    <tr>
+        <td colspan="2">□ Disguise</td>
+        <td id="disguise"></td>
+        <td colspan="2">□ Pharmacy</td>
+        <td id="pharmacy"></td>
+        <td colspan="2" id="extra3title"></td>
+        <td id="extra3"></td>
+    </tr>
+    <tr>
+        <td colspan="2">□ Dodge</td>
+        <td id="dodge"></td>
+        <td valign="top" colspan="2" rowspan="2" id="pilottitle">□ Pilot (Type)</td>
+        <td id="pilot1"></td>
+        <td colspan="2" id="extra4title"></td>
+        <td id="extra4"></td>
+    </tr>
+    <tr>
+        <td colspan="2">□ Drive</td>
+        <td id="drive"></td>
+        <td id="pilot2"></td>
+        <td colspan="2" id="extra5title"></td>
+        <td id="extra5"></td>
+    </tr>
+    <tr>
+        <td colspan="2">□ Firearms</td>
+        <td id="firearms"></td>
+        <td colspan="2">□ Psychotherapy</td>
+        <td id="psychotherapy"></td>
+        <td colspan="2" id="extra6title"></td>
+        <td id="extra6"></td>
+    </tr>
+    <tr>
+        <td colspan="9">Check a box when you attempt to use a skill and fail. After the session, add 1 to each checked skill and erase all checks</td>
+    </tr>
+    </tbody>
+</table>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
