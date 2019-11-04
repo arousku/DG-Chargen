@@ -1,7 +1,7 @@
 Investigator generator for a horror role-playing game.
 
 LINK:
-[](https://student.labranet.jamk.fi/~M1484/chargen/)
+[https://student.labranet.jamk.fi/~M1484/chargen/](https://student.labranet.jamk.fi/~M1484/chargen/)
 
 TODO:
 *  script.js
